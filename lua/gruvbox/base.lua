@@ -281,7 +281,7 @@ local base_group = {
   Typedef = { link = "GruvboxYellow" },
   SpecialChar = { link = "GruvboxRed" },
   Tag = { link = "GruvboxAquaBold" },
-  Delimiter = { link = "GruvboxFg3" },
+  Delimiter = { link = "Special" }, -- [PATCH] color-fix
   Comment = { fg = gray, italic = vim.g.gruvbox_italicize_comments },
   Debug = { link = "GruvboxRed" },
   Underlined = { fg = blue, underline = vim.g.gruvbox_underline },
